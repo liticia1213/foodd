@@ -27,15 +27,23 @@
 
 .navbar-title-h1{
     font-family: cursive;
-    font-weight: bold;
+    font-weight:400;
     font-size: 32px;
     color: white;
     font-family: 'Dancing Script', cursive;
+    position: relative;
+    right: 40px;
+    top: -20px;
 }
 
 .navbar-element{
     width: 450px;
     height: 120px;
+    position: relative;
+    top: -15px;
+    left: 75px;
+    
+
 }
 
 .navbar-element-ul{
@@ -48,19 +56,31 @@
 .navbar-element-li{
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
+ 
+
 }
+.navbar-element-href:hover{
+   color: #ffbe33;
+}
+
 
 .navbar-element-href{
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
     color: white;
 }
 
 i{
     color: white;
     margin: 0 8px 0 8px;
+     position: relative;
+    top: -15px;
+   
 
+}
+i:hover{
+   color: #ffbe33;
+    cursor: pointer;
 }
 
 .navbar-element-button{
@@ -73,6 +93,15 @@ i{
     margin-left: 15px;
     width: 140px;
     height: 40px;
+     position: relative;
+    top: -15px;
+     font-weight: 400;
+     font-size: 15px;
+     letter-spacing: 1px;
+}
+.navbar-element-button:hover{
+     opacity: 0.9;
+    cursor: pointer;
 }
 .description{
     color: white;
@@ -85,11 +114,17 @@ i{
 .description-title{
     font-family: cursive;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Dancing Script', cursive;
+    position: relative;
+   left: 20px;
+   top: -30px;
 }
 .description-details{
     font-family: Arial, Helvetica, sans-serif;
+     position: relative;
+   left: 20px;
+   top: -30px;
     
 }
 .description-button{
@@ -100,14 +135,29 @@ i{
     border-radius: 45px ;
     border: none;
     margin-left: 15px;
-    width: 140px;
-    height: 40px;
+    width: 170px;
+    height: 50px;
+     position: relative;
+   left: 10px;
+   top: -30px;
+   font-weight: 400;
+     font-size: 15px;
+     letter-spacing: 1px;
+   
+}
+.description-button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    
 }
 .dots{
     display: flex;
-    gap: 5px;
+    gap: 7px;
     padding: 50px;
-margin-top: 50px;
+margin-top: 40px;
+position: relative;
+top: -70px;
+left: 16px;
 }
 .dot{
     width: 15px;
@@ -117,51 +167,69 @@ margin-top: 50px;
 position: relative;
 top: 2px;
 }
-.doty{
-    width: 20px;
+.dot:hover{
+     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #ffbe33;
-    
+    cursor: pointer;
 }
 .container1{
     background-color: #212832;
-    height: 200px;
-width: 600px;
+    height: 170px;
+width: 500px;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 gap: 10px;
 padding: 20px;
-border-radius: 10px;
+border-radius: 5px;
 }
 .burger-image{
-    height: 200px;
-    width: 200px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
     border: 5px solid #ffbe33;
+}
+.burger-image:hover{
+    height: 180px;
+    width: 180px;
 }
 .burger-title{
     color: white;
     font-family: 'Dancing Script', cursive;
+    font-weight: 100;
     font-size: 25px;
+    position: relative;
+    right: 60px;
+    top: -10px;
 }
 .burger-promo{
     color: white;
     font-family: 'Dancing Script', cursive;
-font-size: 30px;
+font-size: 40px;
+font-weight: 600;
+position: relative;
+right: 55px;
 }
-.burger-suite{
-    color: white;
-    font-family: 'Dancing Script', cursive;
+.burger-nm{
+font-size: 20px;
+font-weight: 100;
 }
 .imagepart{
-    flex: 1;
+  
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 25px;
+    
 }
 .b-button{
+     
+     font-weight: 100;
+     font-size: 15px;
+     letter-spacing: 1px;
     display: inline-block;
     padding: 8px 13px;
     background-color: #ffbe33;
@@ -169,17 +237,264 @@ font-size: 30px;
     border-radius: 45px ;
     border: none;
     margin-left: 15px;
-    width: 140px;
+    width: 170px;
     height: 40px;
+    font-weight: 600;
     position: relative;
-    top: 20px;
+   right: 70px;
+   top: 10px;
 }
+.b-button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    
+}
+
 .bigcontainer{
     display: flex;
+    justify-content: space-around;
     gap: 10px;
 }
 .vbigcontainer{
     display: flex;
     flex-direction: column;
     gap: 100px;
+}
+.title-menu{
+    font-family: 'Dancing Script', cursive;
+    color: #212832;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-info{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212832;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 350px;
+    position: relative;
+    top: -40px;
+}
+.sp-info{
+    background-color: #212832;
+    color: white;
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ position: relative;
+    top: -10px;
+}
+.container-image{
+   
+display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f4;
+    height: 210px;
+    width: 350px;
+    border-radius: 30px 30px 0px 30px;
+    
+}
+.pizzad-img{
+height: 150px; 
+width: 150px;
+position: relative;
+top: -180px;
+left: 90px;
+}
+.pizzad-img:hover{
+    height: 160px; 
+width: 160px;
+}
+.container-description{
+    background-color: #212832;
+    color: white;
+   height: 400px;
+border-radius: 35px;
+}
+.ds{
+    position: relative;
+    top: -120px;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.titlr-menu{
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 0.5px;
+position: relative;
+left: 20px;
+top: -10px;
+}
+.description-menu{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    position: relative;
+left: 20px;
+}
+.descriptions-menu{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+.button-menu{
+    background-color: #ffbe33;
+    height:30px ;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    left: 300px;
+     outline: none;       
+  border: none; 
+}
+.menu-container{
+   display: flex;
+   justify-content: space-around;
+  
+}
+.cs{
+    display: flex;
+    flex-direction: column;
+    
+}
+.space{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+.more{
+    font-weight: 100;
+     font-size: 15px;
+     letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 13px;
+    background-color: #ffbe33;
+    color: white;
+    border-radius: 45px ;
+    border: none;
+    margin-left: 15px;
+    width: 170px;
+    height: 40px;
+    font-weight: 600;
+    position: relative;
+    left: 535px;
+    top: -60px;
+}
+.alll{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #212832;
+     height: 900px;
+    width: 100%;
+}
+.imgb{
+    height: 700px;
+    width: 450px;
+}
+.title-db{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    position: relative;
+    top: -40px;
+    right: 40px;
+}
+.dis_db{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    position: relative;
+    top: -25px;
+    right: 40px;
+}
+.tx{
+    display: flex;
+    flex-direction: column;
+}
+.moret{
+    font-weight: 100;
+     font-size: 15px;
+     letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 13px;
+    background-color: #ffbe33;
+    color: white;
+    border-radius: 45px ;
+    border: none;
+    margin-left: 15px;
+    width: 170px;
+    height: 40px;
+    font-weight: 600;
+     position: relative;
+   right: 55px;
+}
+.book-title{
+    font-family: 'Dancing Script', cursive;
+   font-weight: 400;
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    left: 60px;
+    
+}
+.form-element{
+    height: 40px;
+width: 500px;
+padding-left: 10px;
+font-size: 15px;
+border-radius: 10px;
+}
+.book-button{
+  font-weight: 100;
+     font-size: 15px;
+     letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 13px;
+    background-color: #ffbe33;
+    color: white;
+    border-radius: 45px ;
+    border: none;
+    margin-left: 15px;
+    width: 170px;
+    height: 40px;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+  
+}
+.book-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+.map{
+    height: 400px;
+    width: 600px;
+    
+}
+.mapimg{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: -320px;
 }
