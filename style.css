@@ -31,17 +31,13 @@
     font-size: 32px;
     color: white;
     font-family: 'Dancing Script', cursive;
-    position: relative;
-    right: 40px;
-    top: -20px;
+    
 }
 
 .navbar-element{
     width: 450px;
     height: 120px;
-    position: relative;
-    top: -15px;
-    left: 75px;
+    
     
 
 }
@@ -73,8 +69,7 @@
 i{
     color: white;
     margin: 0 8px 0 8px;
-     position: relative;
-    top: -15px;
+     
    
 
 }
@@ -93,8 +88,6 @@ i:hover{
     margin-left: 15px;
     width: 140px;
     height: 40px;
-     position: relative;
-    top: -15px;
      font-weight: 400;
      font-size: 15px;
      letter-spacing: 1px;
@@ -116,15 +109,10 @@ i:hover{
     font-weight: bold;
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
-    position: relative;
-   left: 20px;
-   top: -30px;
 }
 .description-details{
     font-family: Arial, Helvetica, sans-serif;
-     position: relative;
-   left: 20px;
-   top: -30px;
+     
     
 }
 .description-button{
@@ -137,9 +125,6 @@ i:hover{
     margin-left: 15px;
     width: 170px;
     height: 50px;
-     position: relative;
-   left: 10px;
-   top: -30px;
    font-weight: 400;
      font-size: 15px;
      letter-spacing: 1px;
@@ -154,18 +139,15 @@ i:hover{
     display: flex;
     gap: 7px;
     padding: 50px;
-margin-top: 40px;
-position: relative;
-top: -70px;
-left: 16px;
+margin-top: -40px;
+
 }
 .dot{
     width: 15px;
     height: 15px;
     border-radius: 50%;
     background-color: white;
-position: relative;
-top: 2px;
+
 }
 .dot:hover{
      width: 20px;
@@ -179,9 +161,8 @@ top: 2px;
     height: 170px;
 width: 500px;
 display: flex;
-justify-content: space-around;
+justify-content: start;
 align-items: center;
-gap: 10px;
 padding: 20px;
 border-radius: 5px;
 }
@@ -189,6 +170,7 @@ border-radius: 5px;
     height: 160px;
     width: 160px;
     border-radius: 50%;
+    margin: 15px;
     border: 5px solid #ffbe33;
 }
 .burger-image:hover{
@@ -200,17 +182,15 @@ border-radius: 5px;
     font-family: 'Dancing Script', cursive;
     font-weight: 100;
     font-size: 25px;
-    position: relative;
-    right: 60px;
-    top: -10px;
+   
 }
 .burger-promo{
     color: white;
     font-family: 'Dancing Script', cursive;
 font-size: 40px;
 font-weight: 600;
-position: relative;
-right: 55px;
+/* position: relative;
+right: 55px; */
 }
 .burger-nm{
 font-size: 20px;
@@ -236,20 +216,22 @@ font-weight: 100;
     color: white;
     border-radius: 45px ;
     border: none;
-    margin-left: 15px;
+    margin-right: 22px;
     width: 170px;
     height: 40px;
     font-weight: 600;
-    position: relative;
-   right: 70px;
-   top: 10px;
+    
 }
 .b-button:hover{
     opacity: 0.9;
     cursor: pointer;
     
 }
-
+.textpart{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .bigcontainer{
     display: flex;
     justify-content: space-around;
@@ -272,11 +254,12 @@ font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
     color: #212832;
     display: flex;
-    justify-content: space-around;
-    padding: 0 350px;
-    position: relative;
-    top: -40px;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+   
 }
+
 .sp-info{
     background-color: #212832;
     color: white;
@@ -286,8 +269,7 @@ font-weight: 100;
     display: flex;
     justify-content: center;
     align-items: center;
- position: relative;
-    top: -10px;
+ 
 }
 .container-image{
    
@@ -303,9 +285,9 @@ display: flex;
 .pizzad-img{
 height: 150px; 
 width: 150px;
-position: relative;
+/* position: relative;
 top: -180px;
-left: 90px;
+left: 90px; */
 }
 .pizzad-img:hover{
     height: 160px; 
@@ -318,8 +300,8 @@ width: 160px;
 border-radius: 35px;
 }
 .ds{
-    position: relative;
-    top: -120px;
+    /* position: relative;
+    top: -120px; */
 }
 .middle{
     display: flex;
@@ -332,22 +314,22 @@ border-radius: 35px;
 .titlr-menu{
 font-family: Arial, Helvetica, sans-serif;
 letter-spacing: 0.5px;
-position: relative;
+/* position: relative;
 left: 20px;
-top: -10px;
+top: -10px; */
 }
 .description-menu{
     font-size: 15px;
     letter-spacing: 0.5px;
-    position: relative;
-left: 20px;
+    /* position: relative;
+left: 20px; */
 }
 .descriptions-menu{
     font-size: 15px;
     letter-spacing: 0.5px;
-    position: relative;
+    /* position: relative;
     left: 20px;
-    top: 20px;
+    top: 20px; */
 
 }
 .button-menu{
@@ -355,8 +337,8 @@ left: 20px;
     height:30px ;
     width: 30px;
     border-radius: 50%;
-    position: relative;
-    left: 300px;
+    /* position: relative;
+    left: 300px; */
      outline: none;       
   border: none; 
 }
@@ -390,9 +372,9 @@ left: 20px;
     width: 170px;
     height: 40px;
     font-weight: 600;
-    position: relative;
+    /* position: relative;
     left: 535px;
-    top: -60px;
+    top: -60px; */
 }
 .alll{
     display: flex;
@@ -410,18 +392,18 @@ left: 20px;
     color: white;
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
-    position: relative;
+    /* position: relative;
     top: -40px;
-    right: 40px;
+    right: 40px; */
 }
 .dis_db{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    position: relative;
+    /* position: relative;
     top: -25px;
-    right: 40px;
+    right: 40px; */
 }
 .tx{
     display: flex;
@@ -441,16 +423,16 @@ left: 20px;
     width: 170px;
     height: 40px;
     font-weight: 600;
-     position: relative;
-   right: 55px;
+     /* position: relative;
+   right: 55px; */
 }
 .book-title{
     font-family: 'Dancing Script', cursive;
    font-weight: 400;
     font-size: 40px;
-    position: relative;
+    /* position: relative;
     top: 60px;
-    left: 60px;
+    left: 60px; */
     
 }
 .form-element{
@@ -474,17 +456,17 @@ border-radius: 10px;
     width: 170px;
     height: 40px;
     font-weight: 600;
-    position: relative;
-    top: 20px;
+    /* position: relative;
+    top: 20px; */
   
 }
 .book-form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    position: relative;
+    /* position: relative;
     top: 80px;
-    left: 60px;
+    left: 60px; */
 }
 .map{
     height: 400px;
@@ -495,6 +477,6 @@ border-radius: 10px;
     display: flex;
     justify-content: end;
     align-items: end;
-    position: relative;
-    top: -320px;
+    /* position: relative;
+    top: -320px; */
 }
